@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>Создать новый аккаунт</title>
+        <link href="styles.css" rel="stylesheet" /><!--    Применить стили к каждому элементу (необязательно).-->
+    </head>
+    <body>
+		<tbody>
+			<div class="userinput">
+				<ul>
+					<input id="full-name" type="text" autocomplete="off" value="" name="user[name1]" maxlength="20" aria-required="true" placeholder="Имя" class="">
+					<div id="result-registration"></div>
+				</ul><!--    -   Имя -->
+				<ul>
+					<input id="full-name" type="text" autocomplete="off" value="" name="user[name2]" maxlength="20" aria-required="true" placeholder="Фамилия" class="">
+					<div id="result-registration"></div>
+				</ul><!--    -   Фамилия -->
+				<ul>
+					<input id="full-name" type="text" autocomplete="off" value="" name="user[name]" maxlength="20" aria-required="true" placeholder="Имя пользователя" class="">
+					<div id="result-registration"></div>
+				</ul><!--    -   Имя пользователя-->
+			</div> 
+			<div class="radiocheck">	
+				<ul>
+					
+					<input type="radio" id="f-option" name="selector">
+					<label for="f-option">Мужской</label>
+						
+					<div class="check"></div>
+					
+					
+					<input type="radio" id="m-option" name="selector">
+					<label for="m-option">Женский</label>
+						
+					<div class="check"><div class="inside"></div></div>
+				
+				</ul>
+			</div><!--    -   Радио кнопка с выбором пола - мужской или женский -->
+			<div class="doit">
+				<div class="sign-up-box">
+					<input class="signup EdgeButton EdgeButton--primary EdgeButton--large submit" type="submit" id="submit_button" value="Регистрация">
+				</div> 
+			</div>	<!--    -   Кнопка “Зарегистрироваться”-->
+			<div id="social">
+                <a href="https://www.facebook.com/" title="Перейти на главную facebook" target="_blank">www.facebook.com</a>
+            </div><!--    -   Ссылка на страницу  facebook.com-->
+		</tbody>
+        <footer>
+            <div id="rights">
+                Все права защищены &copy; sko.yokai@gmail.com
+            </div>
+        </footer><!-- end of footer -->
+    </body>
+</html>
