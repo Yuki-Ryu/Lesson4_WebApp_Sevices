@@ -4,37 +4,37 @@
   {"id": 1,
   "personName": "John Gourd",
   "cityResidence": "Tokyo",
-  "address":{
+  "address":[{
     "street":"Banana song",
     "house":"54/a",
-    "numberApartments":427},
-  "contacts":{
+    "numberApartments":427}],
+  "contacts":[{
     "phone":"934465978",
     "email":"john-gourd@anet.ne.jp",
-    "skype":"john058"}
+    "skype":"john058"}]
   },
   {"id": 2,
   "personName":"Yuliya Nova",
   "cityResidence":"New York",
-  "address":{
+  "address":[{
     "street":"Red Lantern",
     "house":"13/r",
-    "numberApartments":57},
-  "contacts":{
+    "numberApartments":57}],
+  "contacts":[{
     "phone":"220888456",
     "email":"yuliya.nova@gmail.com",
-    "skype":"dodolover"}
+    "skype":"dodolover"}]
   },
   {"id": 3,
   "personName":"Shimon Kodo",
   "cityResidence":"Cracow",
-  "address":{
+  "address":[{
     "street":"Goose song",
     "house":"4",
-    "numberApartments":5},
-  "contacts": {
+    "numberApartments":5}],
+  "contacts":[{
     "phone":"865656500",
     "email":"shimon_kodo@mail.ru",
-    "skype":null}
+    "skype":null}]
   }
 ]}}
