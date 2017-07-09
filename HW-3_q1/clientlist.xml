@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <clientlist count="3">
-	<client id="1">
+	<client>
+		<id>1<id>
 		<personName>John Gourd</personName>
 		<cityResidence>Tokyo</cityResidence>
 		<address>
@@ -14,7 +15,8 @@
 			<skype>john058</skype>
 		</contacts>
 	</client>
-	<client id="2">
+	<client>
+		<id>2<id>
 		<personName>Yuliya Nova</personName>
 		<cityResidence>New York</cityResidence>
 		<address>
@@ -28,7 +30,8 @@
 			<skype>dodolover</skype>
 		</contacts>
 	</client>
-	<client id="3">
+	<client>
+		<id>3<id>
 		<personName>Shimon Kodo</personName>
 		<cityResidence>Cracow</cityResidence>
 		<address>
